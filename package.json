@@ -1,7 +1,19 @@
 {
-  "name": "@iouring/keerthiop-calender",
+  "name": "@iouring-engineering/calender-connect",
   "version": "0.0.1",
   "description": "A simple template for a custom React component library",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/iouring-engineering/calendar-connect/issues"
+  },
+  "homepage": "https://github.com/iouring-engineering/calendar-connect",
+  "repository": "https://github.com/iouring-engineering/calendar-connect",
+  "keywords": [
+    "calender",
+    "google calender",
+    "icalender",
+    "outlook calender"
+  ],
   "scripts": {
     "rollup": "rollup -c",
     "build": "rollup -c"
@@ -30,8 +42,11 @@
   "devDependencies": {
     "@types/file-saver": "^2.0.5"
   },
-  "engines" : { 
-    "npm" : ">=8.11.0",
-    "node" : ">=16.16.0"
+  "engines": {
+    "npm": ">=8.11.0",
+    "node": ">=16.16.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
