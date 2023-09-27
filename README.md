@@ -62,8 +62,8 @@ Example:
 
 ```javascript
      const calenderTypes = {
-            start: new Date("start date"),
-            end: new Date("end date"),
+            start: new Date("27 sep 2023"),
+            end: new Date("27 sep 2023"),
             title: title,
             description: description,
             downloadFileName: results-calender,
@@ -74,14 +74,14 @@ Example:
 ## Usage
 
 ```jsx
-import { AddToCalenderOptions, CALENDER_TYPE } from "./ICalendar";
+import { CalendarConnect, CALENDER_TYPE } from "@iouring-engineering/calender-connect";
 import React from "react";
 
   const CalendarOptions = () => {
     const calenderTypes = [
-        { icon: <img src={Ical} />, label: "iCal", type: CALENDER_TYPE.ICAL },
-        { icon: <img src={Gcalender} className="google-img" />, label: "Google", type: CALENDER_TYPE.GOOGLE },
-        { icon: <img src={Outlook} className="outlook-img" />, label: "Outlook", type: CALENDER_TYPE.OUTLOOK }
+        { icon: <img src="" />, label: "iCal", type: CALENDER_TYPE.ICAL },
+        { icon: <img src="" />, label: "Google", type: CALENDER_TYPE.GOOGLE },
+        { icon: <img src="" />, label: "Outlook", type: CALENDER_TYPE.OUTLOOK }
     ];
 
     const dataFormat = {
@@ -94,7 +94,7 @@ import React from "react";
     };
 
     return (
-        <AddToCalenderOptions 
+        <CalendarConnect 
             calenderTypes={calenderTypes}
             calenderData={calenderData}
         />

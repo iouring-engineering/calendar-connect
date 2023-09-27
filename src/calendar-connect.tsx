@@ -23,7 +23,7 @@ interface CalenderTypeProps {
     type?: string
 }
 
-interface AddToCalenderProps {
+interface CalendarConnectProps {
     calenderData: CalendarEventArgs
 
     calenderTypes: CalenderTypeProps[]
@@ -171,7 +171,7 @@ const iCalendarDownload = (args: CalendarEventArgs) => {
     return "";
 };
 
-export const AddToCalenderOptions = (props: AddToCalenderProps) => {
+export const CalendarConnect = (props: CalendarConnectProps) => {
     const { calenderData, calenderTypes } = props;
 
     const calenderEvent = (args: CalenderTypeProps, dataFormat: CalendarEventArgs) => {
