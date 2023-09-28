@@ -1,7 +1,7 @@
 {
   "name": "@iouring-engineering/calender-connect",
   "version": "0.0.1",
-  "description": "Calender event library",
+  "description": "Calendar Connect library",
   "private": false,
   "license": "MIT",
   "bugs": {
